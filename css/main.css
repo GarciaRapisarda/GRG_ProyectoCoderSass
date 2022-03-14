@@ -1,9 +1,9 @@
+/* VARIABLES */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
 
-/* VARIABLES */
 /* HEADER */
 .encabezado {
   display: flex;
