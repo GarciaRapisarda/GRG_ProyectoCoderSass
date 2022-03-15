@@ -3,3 +3,28 @@
     margin: 0;
     box-sizing: border-box;   
 }
+// EXTEND //
+.footer-icon {
+    border-radius: 20px;
+    font-size: 2rem;
+    background-color: antiquewhite;
+}
+// MIXIN //
+
+// MAPS //
+$socialnetworks: (
+    instagram: solid #F20530,
+    facebook: solid #056CF2,
+    whatsapp: solid #29D967,
+    gmail: solid #F23838,
+    twitter: solid #3098F2
+);
+@each $red, $bordercolor in $socialnetworks {
+    .btn--#{$red} {
+        &:hover {
+        border: $bordercolor;
+        @extend .footer-icon;
+        
+        }
+        }
+    }
