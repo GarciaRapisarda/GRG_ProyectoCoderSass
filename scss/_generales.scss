@@ -10,7 +10,13 @@
     background-color: antiquewhite;
 }
 // MIXIN //
-
+@mixin tipotexto($font, $size) {
+    font-family: $font;
+    font-size: $size;
+}
+.estilo {
+    @include tipotexto(Alegreya,1.5rem );
+} 
 // MAPS //
 $socialnetworks: (
     instagram: solid #F20530,

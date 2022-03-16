@@ -9,6 +9,10 @@
   font-size: 2rem;
   background-color: antiquewhite; }
 
+.estilo {
+  font-family: Alegreya;
+  font-size: 1.5rem; }
+
 .btn--instagram:hover {
   border: solid #F20530; }
 
